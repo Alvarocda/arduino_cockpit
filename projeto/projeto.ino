@@ -15,7 +15,7 @@ void setup() {
 
 void loop() {
   // valorAcelerador = map(analogRead(aceleradorPin), 0, 1023, 0, 100);  
-  connector.simpleInputHandling(aceleradorPin);
+  connector.simpleInputHandling(aceleradorPin); 
   // Serial.println(valorAcelerador);
   // delay(10);
 }
